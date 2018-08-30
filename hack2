@@ -19,20 +19,20 @@ int main(int argc, char **argv) {
   scanf("%lf", &latitudeA);
   
   printf("Enter the latitude of location B: ");
-  scanf("%lf", &latitudeB)
+  scanf("%lf", &latitudeB);
   
   printf("Enter the longitude of location A: ");
-  scanf("%lf", &longitudeA)
+  scanf("%lf", &longitudeA);
   
   printf("Enter the longitude of location B: ");
-  scanf("%lf", &longitudeB)
+  scanf("%lf", &longitudeB);
   
   double latitudeA-R, latitudeB-R, longitudeA-R, longitudeB-R;
   
   latitudeA-R = (latitudeA/180)*M_PI;
   latitudeB-R = (latitudeB/180)*M_PI;
-  longitudeA-R = (longitude/180)*M_PI;
-  longitudeB-R = (longitude/180)*M_PI;
+  longitudeA-R = (longitudeA/180)*M_PI;
+  longitudeB-R = (longitudeB/180)*M_PI;
   
   
   Dif = longitudeB - longitudeA
