@@ -1,0 +1,41 @@
+/**
+ *Author: SungHa Park
+ *Date: 08/30/1018
+ *This program prompts user 
+ *to enter the latitude and longitude 
+ *of two locations and then computes 
+ *the distance between them using the above formulas
+ *
+ */
+ #include<stdlib.h>
+ #include<stdio.h>
+ #include<math.h>
+ 
+int main(int argc, char **argv) {
+  
+  double latitudeA, latitudeB, longitudeA, longitudeB, Dif, Dis;
+  
+  printf("Enter the latitude of location A: ");
+  scanf("%lf", &latitudeA);
+  
+  printf("Enter the latitude of location B: ");
+  scanf("%lf", &latitudeB)
+  
+  printf("Enter the longitude of location A: ");
+  scanf("%lf", &longitudeA)
+  
+  printf("Enter the longitude of location B: ");
+  scanf("%lf", &longitudeB)
+  
+  double latitudeA-R, latitudeB-R, longitudeA-R, longitudeB-R;
+  
+  latitudeA-R = (latitudeA/180)*M_PI;
+  latitudeB-R = (latitudeB/180)*M_PI;
+  longitudeA-R = (longitude/180)*M_PI;
+  longitudeB-R = (longitude/180)*M_PI;
+  
+  
+  Dif = longitudeB - longitudeA
+  Dis = arccos(sin(latitudeA-R)sin(latitudeB-R)+cos(latitudeA-R)cos(latitudeB-R)cos(Dif))*6371
+return 0:
+}
