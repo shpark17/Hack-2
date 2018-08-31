@@ -38,6 +38,6 @@ int main(int argc, char **argv) {
   double Dif = longitudeB - longitudeA
   double Dis = arccos(sin(latitudeAR)sin(latitudeBR)+cos(latitudeAR)cos(latitudeBR)cos(Dif))*6371
   
-  printf("Origin: %f, %f\n Destination: %f, %f\n Air distance is: \n", latitudeA, longitudeA, latitudeB, longitudeB, Dis)
+  printf("Origin: %f, %f\n Destination: %f, %f\n Air distance is: %f\n", latitudeA, longitudeA, latitudeB, longitudeB, Dis)
 return 0:
 }
