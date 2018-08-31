@@ -17,16 +17,20 @@ int main(int argc, char **argv) {
   
   printf("Enter the latitude of location A: ");
   scanf("%lf", &latitudeA);
-  
-  printf("Enter the latitude of location B: ");
-  scanf("%lf", &latitudeB);
+  printf("\n");
   
   printf("Enter the longitude of location A: ");
   scanf("%lf", &longitudeA);
-  
+  printf("\n");
+ 
+  printf("Enter the latitude of location B: ");
+  scanf("%lf", &latitudeB);
+  printf("\n");
+ 
   printf("Enter the longitude of location B: ");
   scanf("%lf", &longitudeB);
-  
+  printf("\n");
+ 
   double latitudeAR, latitudeBR, longitudeAR, longitudeBR;
   
   latitudeAR = (latitudeA/180)*M_PI;
