@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
   longitudeBR = (longitudeB/180)*M_PI;
   
   
-  double Dif = longitudeB - longitudeA;
+  double Dif = longitudeBR - longitudeAR;
   double Dis = acos(sin(latitudeAR)*sin(latitudeBR)+cos(latitudeAR)*cos(latitudeBR)*cos(Dif))*6371;
   
   printf("Origin: %f, %f\n Destination: %f, %f\n Air distance is: %f\n", latitudeA, longitudeA, latitudeB, longitudeB, Dis);
